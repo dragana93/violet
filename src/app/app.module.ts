@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VioletComponent } from './violet/violet.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VioletComponent
   ],
   imports: [
     BrowserModule,

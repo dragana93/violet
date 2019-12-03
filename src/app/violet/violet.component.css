@@ -1,4 +1,4 @@
-div {
+/* div {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
@@ -43,6 +43,7 @@ div {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  position: apsolute !important;
 }
 
 .buttonNo:hover {
@@ -53,4 +54,61 @@ div {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+} */
+
+.buttonYes {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #e03314;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.clickMeButton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: absolute;
+}
+
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  padding-bottom: 25px;
+  width: 150px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.img {
+  height: 500px;
+  width: 250px;
 }

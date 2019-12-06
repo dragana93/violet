@@ -1,10 +1,4 @@
-/* div {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-
+/*
 .buttonYes {
   display: inline-block;
   padding: 15px 25px;
@@ -69,6 +63,9 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  font-style: italic;
+  text-align: center;
+  margin-left: 30px;
 }
 
 .clickMeButton {
@@ -85,6 +82,9 @@
   border-radius: 15px;
   box-shadow: 0 9px #999;
   position: absolute;
+  font-style: italic;
+  text-align: center;
+  margin-left: 10px;
 }
 
 .heart {
@@ -92,6 +92,7 @@
   position: relative;
   top: 5px;
   padding-bottom: 25px;
+  padding-left: 50px;
   width: 150px;
   animation: pulse 1s ease infinite;
 }
@@ -111,4 +112,36 @@
 .img {
   height: 500px;
   width: 250px;
+}
+
+.img-round {
+  border-radius: 10%;
+}
+.back-col {
+  background-color: rgb(247, 206, 193);
+}
+
+.txt-style-h1 {
+  font-style: italic;
+  text-align: center;
+}
+
+.txt-style {
+  font-style: italic;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
